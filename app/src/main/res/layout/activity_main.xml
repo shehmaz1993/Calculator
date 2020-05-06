@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+    <EditText
+        android:id="@+id/lst_text"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:textStyle="bold"
+        android:textSize="10sp"
+        android:hint="@string/enterNumber1"
+        android:layout_margin="10sp"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@color/colorAccent"
+        android:backgroundTint="@color/colorPrimaryDark"
+
+        />
+    <EditText
+        android:id="@+id/snd_text"
+        android:layout_width="100sp"
+        android:layout_height="30sp"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        android:hint="@string/enterNumber2"
+        android:layout_margin="10sp"
+        android:inputType="numberDecimal"
+        android:textCursorDrawable="@color/colorAccent"
+        android:backgroundTint="@color/colorPrimaryDark"
+        android:layout_marginLeft="20dp"
+        android:layout_marginStart="20dp" />
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+   <Button
+       android:id="@+id/sum_id"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_marginLeft="10sp"
+       android:padding="2dp"
+       android:text="sum"
+       android:textSize="10dp"
+       android:onClick="showmessage"
+       android:textColorHighlight="#978383"
+        />
+    <Button
+        android:id="@+id/sub_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:padding="2dp"
+        android:text="SUBSTRACT"
+        android:textStyle="italic"
+        android:onClick="showmessage"
+        android:textSize="10dp"
+        android:textColorHighlight="#978383"
+        />
+    <Button
+        android:id="@+id/mul_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:padding="2dp"
+        android:onClick="showmessage"
+        android:text="MULTIPLY"
+        android:textStyle="italic"
+        android:textSize="10dp"
+        android:textColorHighlight="#978383"
+        />
+    <Button
+        android:id="@+id/div_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10sp"
+        android:padding="2dp"
+        android:onClick="showmessage"
+        android:text="DIVISION"
+        android:textStyle="italic"
+        android:textSize="10dp"
+        android:textColorHighlight="#978383"
+        />
+
+</LinearLayout>
+    <TextView
+        android:id="@+id/text_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"/>
+
+</LinearLayout>

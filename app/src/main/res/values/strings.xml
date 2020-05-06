@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">CalculatorByUsingEditText</string>
+    <string name="enterNumber1">Enter the 1st number</string>
+    <string name="enterNumber2">Enter the 2nd number</string>
+</resources>
